@@ -10,30 +10,21 @@ h1 {
     color:black;
     font-family: var(--comfortaa);
     text-align: left;
-    font-size: 60px;
-}
-h2{
-    font-family: var(--comfortaa);
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 15px;
+    font-size: 96px;
+    margin:0;
 }
 
 .logo {
     height: 70px;
-    border: black 10px solid;
     display: block;
-    margin: auto;
-}
-
-ul {
-    font-family: 'Comfortaa', sans-serif;
-    color:cadetblue;
+    margin-left: 120px;
 }
 
 p{
     font-family: var(--comfortaa);
     text-align: left;
+    font-size: 20px;
+    margin: 0px 0px 100px 0px;
 }
 
 footer{
@@ -45,19 +36,12 @@ footer{
     text-align: center;
 }
 
-.titelfooter {
-
-}
-
-.themenfooter {
-
-}
-
-.menu-links, .menu-rechts {
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 35%;
 
     list-style: none;
 }
@@ -67,20 +51,41 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--grün);
 }
 
-.menu {
-    width: 35%;
-}
-
-.Hi_container {
+.hi_container {
     background-color: #FF825C;
+    display: flex;
+    height: 670px;
 }
 
-.Hi_inhalt{
+.hi_inhalt{
     margin: 0px 120px 0px 120px;
+    flex: 3;
+
 }
 
 .start_hintergrundbild {
+    width: 100%;
+    opacity: 15%;
+    height: 445px; /* Setze die gewünschte Höhe für das div */
+    background-image: url('/img/Z-black.png');
+    background-size: cover;
+    background-position: top center; /* Positioniere das Bild so, dass der obere Teil sichtbar ist */
+  }
+  
+  .titel_enkel {
+    height: 75px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
 
-}
+  .start_rechter_bereich {
+    flex: 2;
+  }
+
+  .leer_enkel {
+    height: 200px;
+  }
