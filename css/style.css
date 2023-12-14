@@ -6,6 +6,9 @@
     --ubuntu: 'Ubuntu', sans-serif;
 }
 
+body{
+    margin: 0;
+}
 h1 {
     color:black;
     font-family: var(--comfortaa);
@@ -17,7 +20,7 @@ h1 {
 .logo {
     height: 70px;
     display: block;
-    margin-left: 120px;
+    margin: 163px 0px 0px 120px;
 }
 
 p{
@@ -36,12 +39,17 @@ footer{
     text-align: center;
 }
 
+header {
+    background-color: black;
+}
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 35%;
+    width: 100%;
+    margin: 50px 120px 0px 389px;
+    margin-top: ;
 
     list-style: none;
 }
@@ -51,8 +59,26 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--ubuntu); 
     color: var(--grün);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.liveplayer {
+ background-color: #A18DF3;
+ margin-right: 120px;
+ margin-left: 659px;
+ width: 661px;
+ height: 173px;
+ border-radius: 16px;
+ padding: 16px;
+}
+
+.header {
+    display: flex;
+    margin: 0;
 }
 
 .hi_container {
@@ -88,4 +114,9 @@ nav{
 
   .leer_enkel {
     height: 200px;
+  }
+
+  a:-webkit-any-link{
+    color: var(--grün);
+    text-decoration: none;
   }
