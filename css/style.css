@@ -1,16 +1,19 @@
 :root{
-    --orange: rgb(245, 136, 27);
-    --youngserif: 'Young Serif', serif;
+    --orange: #FF825C;
+    --violett:#A18DF3;
+    --grün: #B4FF69;
+    --comfortaa: 'Comfortaa', sans-serif;
+    --ubuntu: 'Ubuntu', sans-serif;
 }
 
 h1 {
-    color:var(--orange);
-    font-family: 'Young Serif', serif;
-    text-align: center;
+    color:black;
+    font-family: var(--comfortaa);
+    text-align: left;
     font-size: 60px;
 }
 h2{
-    font-family: var(--youngserif);
+    font-family: var(--comfortaa);
     font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
@@ -24,19 +27,13 @@ h2{
 }
 
 ul {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Comfortaa', sans-serif;
     color:cadetblue;
 }
 
 p{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 0px 100px 100px 100px;
-    margin: 0px 100px 100px 100px;
-}
-
-b{
-    font-family: var(--youngserif);
+    font-family: var(--comfortaa);
+    text-align: left;
 }
 
 footer{
@@ -74,4 +71,16 @@ nav{
 
 .menu {
     width: 35%;
+}
+
+.Hi_container {
+    background-color: #FF825C;
+}
+
+.Hi_inhalt{
+    margin: 0px 120px 0px 120px;
+}
+
+.start_hintergrundbild {
+
 }
