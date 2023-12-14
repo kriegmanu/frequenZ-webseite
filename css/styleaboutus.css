@@ -6,50 +6,111 @@
     --ubuntu: 'Ubuntu', sans-serif;
 }
 
-.h1{
+body{
+    margin: 0;
+}
+
+h1{
     color:black;
     font-family: var(--comfortaa);
-    text-align: left;
     font-size: 96px;
     margin:0;
     letter-spacing: 24px;
 }
 
-.h2{
+h2{    /* h2 */
     color:black;
-    font-family: var(--ubuntu);
-    text-align: left;
+    font-family: var(--comfortaa);
     font-size: 64px;
-    margin:0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     letter-spacing: 16px;
-
+    padding: 100px 0px 50px 0px;
+    margin: 0px;   
 }
+
+h3{     /* h3 */
+    color: black;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
+p{
+    color: #000;
+    display: flex;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    margin: 0px;
+}
+
+.button_text{
+    font-family: var(--ubuntu)
+}
+
+.button{
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    align-items: center;
+   }
+
+.button_style {
+    background-color: #FF825C;
+    border-radius: 16px;
+    display: flex;
+    width: 257px;
+    padding: 20px 24px;
+    justify-content: center;
+    margin-right: 50px;
+   }
 
 .wer_ghoeri{
     background-color: #A18DF3;
     display: flex;
     height: 3623px;
+    padding: 100px 120px 100px 120px;
 }
 
-.titel_wer_ghoeri{
-    height: 75px;
-    margin: 100px 392px 3448px 120px;
-  }
+.titel_stimmprobe_lisa{
+    margin: 0px 0px 0px 0px;
+}
+
+.seekbar{
+    width: auto;
+    height: 24px;
+    margin: 50px 0px 0px 0px;
+}
 
 .was_ghoeri{
     background-color: #B4FF69;
     display: flex;
     height: 1253px;
+    padding: 100px 120px 100px 120px;
+}
+
+.titel_was_ghoeri{
+    height: 50px;
+    text-align: right;
 }
 
 .wieso_ghoeris{
     background-color: #FF825C;
     display: flex;
     height: 1197px;
+    padding: 100px 120px 100px 120px;
 }
 
 .woher_ghoeris{
     background-color: #A18DF3;
     display: flex;
     height: 786px;
+    padding: 100px 120px 100px 120px;
 }
