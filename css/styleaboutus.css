@@ -180,22 +180,32 @@ p{
     background-image: url('/img/seekbar_hover.png');
 }
 
+.rechterbereich{
+    flex: 2;
+    float: right;
+}
+
+.rechtesbild{
+    flex: 2;
+    margin-left: auto;
+    float: right;
+}
+
 .host_lisa{
     display: flex;
     flex-direction: row;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+.text_lisa{
+    display: flex;
+    padding-right: 50px;
 }
 
 .content_lisa{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 50px 0px 0px;
     flex: 3;
-}
-
-.rechterbereich{
-    flex: 2;
-    float:right;
 }
 
 .host_luca{
@@ -211,6 +221,10 @@ p{
     padding-right: 50px;
 }
 
+.content_luca{
+    flex: 3;
+}
+
 .host_jula{
     display: flex;
     flex-direction: row;
@@ -222,6 +236,10 @@ p{
 .text_jula{
     display: flex;
     padding-right: 50px;
+}
+
+.content_jula{
+    flex: 3;
 }
 
 .host_manu{
@@ -237,6 +255,10 @@ p{
     padding-right: 50px;
 }
 
+.content_manu{
+    flex: 3;
+}
+
 .was_ghoeri{
     background-color: #B4FF69;
     display: flex;
@@ -245,12 +267,7 @@ p{
 }
 
 .was_ghoeri_rechts{
-    text-align: right;
     flex-direction: row-reverse;
-}
-
-.berite_autehitizitaet{
-    justify-content: right;
 }
 
 .aufteilung{
@@ -260,8 +277,21 @@ p{
     justify-content: right;
 }
 
+.aufteilung2{
+    display: flex;
+    flex-direction: row;
+}
+
 .linkerleerbereich{
     flex:2;
+}
+
+.rechterleerbereich{
+    flex: 2;
+}
+
+.content_links{
+    flex: 3;
 }
 
 .wieso_ghoeris{
@@ -270,10 +300,11 @@ p{
     flex-direction: column;
     padding: 100px 120px 100px 120px;
     justify-content: right;
+    text-align: right;
 }
 
-.geschichte{
-    width: 931px;
+.titel_geschichte{
+    text-align: left;
 }
 
 .woher_ghoeris{
