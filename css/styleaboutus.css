@@ -50,6 +50,9 @@ p{
     line-height: normal;
     letter-spacing: 3.6px;
     margin: 0px;
+    width: 1200px;
+    flex-direction: row;
+    row-gap: 147px;
 }
 
 .button_text{
@@ -77,6 +80,13 @@ p{
     display: flex;
     height: 3623px;
     padding: 100px 120px 100px 120px;
+}
+
+.image_host{
+    display: flex;
+    width: 392px;
+    height: 480px;
+    justify-content: right;
 }
 
 .titel_stimmprobe_lisa{
