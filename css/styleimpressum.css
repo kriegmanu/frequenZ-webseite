@@ -225,39 +225,62 @@ h3{
 }
 
 .einleitung{
-
     background-color: var(--grün);
+    background-image: url('/img/hintergrund_einleitung.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
     
 }
 
 .geschaeftsleitung{
-    
     background-color: var(--orange);
-    
+    background-image: url('/img/hintergrund_ceo.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1500px;
     
 }
 
 .corporatecommunications{
     background-color: var(--violett);
+    background-image: url('/img/hintergrund_cc.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 800px;
     
 }
 
 .audiovisuelleserzaehlen{
     background-color: var(--grün);
+    background-image: url('/img/hintergrund_audio.png');
+    background-repeat: no-repeat;
+    background-position: leftt;
+    background-size: 1100px;
 }
 
 .interaktivemedien{
     background-color: var(--orange);
+    background-image: url('/img/hintergrund_im.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 600px;
 }
+    
+
 
 .visualisieren{
     background-color: var(--violett);
+    background-image: url('/img/hintergrund_visua.png');
+    background-repeat: no-repeat;
+    background-position: left 400px top;
+    background-size: 400px;
 }
+    
 
 .rechts{
     flex: 1;
     text-align: right;
-    
 }
 
 .links{
