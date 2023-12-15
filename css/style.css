@@ -63,7 +63,8 @@ footer {
     margin-right: 120px;
     color: var(--orange);
     font-family: var(--ubuntu);
-    text-transform: none;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
   }
 
 .footer-column1 {
@@ -78,6 +79,7 @@ footer {
     color: var(--orange);
     font-family: var(--ubuntu);
     text-transform: none;
+    
 }
 
 .impressum_footer {
@@ -144,7 +146,7 @@ footer {
 }
 
 .instagram, .youtube, .tiktok {
-
+    height: 65px;
   }
 
 header {
@@ -258,11 +260,8 @@ a:hover {
 }
 
 .start_hintergrundbild {
-    width: 100%;
-    opacity: 15%;
-    height: 470px; /* Setze die gewünschte Höhe für das div */
-    background-image: url('/img/Z-black.png');
-    background-size: cover;
+    /* Setze die gewünschte Höhe für das div */
+
   }
   
   .titel_enkel {
@@ -273,6 +272,12 @@ a:hover {
 
   .start_rechter_bereich {
     flex: 2;
+    background-image: url('/img/Z-black.png');
+    background-size: 800px;
+    background-position: left 60px bottom -400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 15%;
   }
 
   .leer_enkel {
