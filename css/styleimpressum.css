@@ -23,6 +23,7 @@ h1 {
     margin: 163px 0px 0px 120px;
 }
 
+
 p{
     font-family: var(--comfortaa);
     text-align: left;
@@ -121,7 +122,7 @@ nav{
     text-decoration: none;
   }
 
-
+/*
   .einleitungstext{  
     box-sizing: border-box; 
     padding: 100px 524px 100px 120px;
@@ -147,12 +148,11 @@ nav{
   .geschäftsleitungtext{
     max-width: 60%;
     text-align: right;
-
   }
 
   .corporatecommunications{
     box-sizing: border-box;
-    padding:72px 793px 100px 120px;
+    padding:100px 796px 100px 120px;
     width: 100%;
     height: 406px;
     background-color:#A18DF3;
@@ -161,3 +161,105 @@ nav{
   .corporatecommunicationstext{
     max-width: 60%;
   }
+
+  .audiovisuelleserzählen{
+    box-sizing: border-box;
+    padding:100px 120px 100px 766px;
+    width: 100%;
+    height: 406px;
+    background-color:#B4FF69;
+  }
+  .audiovisuelleserzählentext{
+    max-width: 60%;
+    text-align: right;
+  }
+
+.interaktivemedien{
+    box-sizing: border-box;
+    padding:100px 796px 100px 120px;
+    width: 100%;
+    height: 406px;
+    background-color:#FF825C;
+}
+
+.interaktivemedientext{
+    max-width: 60%;
+    text-align: left;
+}
+
+.visualisieren{
+    box-sizing: border-box;
+    padding:100px 120px 100px 796px;
+    width: 100%;
+    height: 406px;
+    background-color:#B4FF69;
+}
+
+.visualisierentext{
+    max-width: 60%;
+    text-align: right;
+}
+*/
+
+h5{
+    font-family: var(--comfortaa);
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 0px 100px 0px;
+}
+.detail{
+    text-align-last: right;
+}
+
+h3{
+    color:black;
+    font-family: var(--comfortaa);
+    text-align: left;
+    font-size: 30px;
+    margin:0;
+}
+.einleitung,.geschaeftsleitung, .corporatecommunications, .audiovisuelleserzaehlen, .interaktivemedien, .visualisieren{
+    display: flex;
+    padding: 70px 120px 0px 120px;
+    
+}
+
+.einleitung{
+
+    background-color: var(--grün);
+    
+}
+
+.geschaeftsleitung{
+    
+    background-color: var(--orange);
+    
+    
+}
+
+.corporatecommunications{
+    background-color: var(--violett);
+    
+}
+
+.audiovisuelleserzaehlen{
+    background-color: var(--grün);
+}
+
+.interaktivemedien{
+    background-color: var(--orange);
+}
+
+.visualisieren{
+    background-color: var(--violett);
+}
+
+.rechts{
+    flex: 1;
+    text-align: right;
+    
+}
+
+.links{
+    flex: 1;   
+}
