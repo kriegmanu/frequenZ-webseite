@@ -1,0 +1,117 @@
+:root{
+    --orange: #FF825C;
+    --violett:#A18DF3;
+    --grün: #B4FF69;
+    --comfortaa: 'Comfortaa', sans-serif;
+    --ubuntu: 'Ubuntu', sans-serif;
+}
+
+
+
+h5{
+    font-family: var(--comfortaa);
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 0px 100px 0px;
+}
+
+ .detail{
+    text-align-last: right;
+}
+
+h3{
+    color:black;
+    font-family: var(--comfortaa);
+    text-align: left;
+    font-size: 30px;
+    margin:0;
+}
+.einleitung,.geschaeftsleitung, .corporatecommunications, .audiovisuelleserzaehlen, .interaktivemedien,
+.visualisieren, .adresse, .wegbeschreibung, .parkmoeglichkeiten, .support, .oeffnungszeiten{
+    display: flex;
+    padding: 70px 120px 0px 120px;
+    
+}
+
+.einleitung{
+    background-color: var(--grün);
+    background-image: url('/img/hintergrund_einleitung.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 800px;
+    
+}
+
+.geschaeftsleitung{
+    background-color: var(--orange);
+    background-image: url('/img/hintergrund_ceo.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1500px;
+    
+}
+
+.corporatecommunications{
+    background-color: var(--violett);
+    background-image: url('/img/hintergrund_cc.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 800px;
+    
+}
+
+.audiovisuelleserzaehlen{
+    background-color: var(--grün);
+    background-image: url('/img/hintergrund_audio.png');
+    background-repeat: no-repeat;
+    background-position: leftt;
+    background-size: 1100px;
+}
+
+.interaktivemedien{
+    background-color: var(--orange);
+    background-image: url('/img/hintergrund_im.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 600px;
+}
+    
+
+
+.visualisieren{
+    background-color: var(--violett);
+    background-image: url('/img/hintergrund_visua.png');
+    background-repeat: no-repeat;
+    background-position: left 400px top;
+    background-size: 400px;
+}
+    
+.rechts{
+  flex: 1;
+  text-align: right;
+}
+
+.links{
+  flex: 1;   
+}
+
+.adresse{
+  background-color: var(--orange);
+  
+}
+
+.wegbeschreibung{
+  background-color: var(--violett);
+}
+
+.parkmoeglichkeiten{
+  background-color: var(--grün);
+}
+
+.support{
+  background-color: var(--orange);
+}
+
+.oeffnungszeiten{
+  background-color: var(--violett);
+}
