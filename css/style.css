@@ -10,6 +10,12 @@ body{
     margin: 0;
     letter-spacing: 2.4px;
 }
+
+b {
+    font-family: var(--ubuntu);
+    font-weight: 700;
+}
+
 h1 {
     color:black;
     font-family: var(--comfortaa);
@@ -27,7 +33,7 @@ p{
     font-family: var(--comfortaa);
     text-align: left;
     font-size: 20px;
-    margin: 0px 0px 100px 0px;
+    margin-bottom: 100px;
 }
 
 span {
@@ -36,18 +42,134 @@ span {
     letter-spacing: 2.4px;
 }
 
-footer{
-    margin: 30px;
-    display: inline-flex;
+footer {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: var(--orange);
+    font-family: var(--comfortaa);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+.footer-column1, .footer-column2, .footer-column3  {
+    margin: 50px;
+    flex: 1;
+  }
+
+.footer-column3 {
+    margin-right: 120px;
+    color: var(--orange);
+    font-family: var(--ubuntu);
+    text-transform: none;
+  }
+
+.footer-column1 {
+    margin-left: 120px;
+  }
+.socialmedia {
+    justify-content: space-between;
+    display: flex;
+  }
+
+.frequenz_footer {
+    color: var(--orange);
+    font-family: var(--ubuntu);
+    text-transform: none;
 }
 
-#footermitte {
-    text-align: center;
+.impressum_footer {
+    color: var(--violett);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
 }
+
+.impressum_footer:hover {
+    color: var(--orange);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.datenschutz_footer {
+    color: var(--grün);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.agb_footer {
+    color: var(--orange);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.kontakt_footer {
+    color: var(--grün);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.kontakt_footer:hover {
+    color: var(--violett);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.überfrequenz_footer {
+    color: var(--orange);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.überfrequenz_footer:hover {
+    color: var(--grün);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.presse_footer {
+    color: var(--violett);
+    font-family: var(--comfortaa);
+    text-transform: none;
+    font-weight: 600;
+}
+
+.instagram, .youtube, .tiktok {
+
+  }
 
 header {
     background-color: black;
     padding: 0px 120px 0px 120px;
+    background-image: url('/img/Z-red-15.png');
+    background-size: 800px; /* Oder die gewünschte Größe */
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-position-y: -650px;
+    background-position-x: 100px;
+}
+
+header::after {
+    content: ""; /* Das Pseudo-Element benötigt einen Inhalt, auch wenn er leer ist */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('/img/Z-red-15.png');
+    background-size: cover; /* Oder die gewünschte Größe */
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1; /* Stelle sicher, dass das Pseudo-Element hinter dem Inhalt liegt */
 }
 
 .menu {
@@ -95,7 +217,7 @@ a:hover {
 
 .liveplayer {
     text-align: right;
-    padding-right: 10px;
+    padding-right: 30px;
     flex: 3;
     font-family: var(--comfortaa);
     font-size: 20px;
@@ -104,10 +226,17 @@ a:hover {
 .live_bild {
     width: 75px;
     height: 75px;
+    background-image: url('/img/Playbutton.png');
+    background-size:contain;
+    margin: 20px;
 }
 
 .playbutton {
     max-width: 100%;
+}
+
+.live_bild:hover {
+    background-image: url('/img/PlaybuttonHover.png');
 }
 
 .header {
@@ -120,7 +249,6 @@ a:hover {
 .hi_container {
     background-color: #FF825C;
     display: flex;
-    height: 670px;
 }
 
 .hi_inhalt{
@@ -132,10 +260,9 @@ a:hover {
 .start_hintergrundbild {
     width: 100%;
     opacity: 15%;
-    height: 445px; /* Setze die gewünschte Höhe für das div */
+    height: 470px; /* Setze die gewünschte Höhe für das div */
     background-image: url('/img/Z-black.png');
     background-size: cover;
-    background-position: top center; /* Positioniere das Bild so, dass der obere Teil sichtbar ist */
   }
   
   .titel_enkel {
@@ -149,5 +276,6 @@ a:hover {
   }
 
   .leer_enkel {
-    height: 200px;
-  }
+    background-position: bottom center;
+    background-size: contain;
+  } 
