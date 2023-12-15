@@ -115,3 +115,28 @@ h3{
 .oeffnungszeiten{
   background-color: var(--violett);
 }
+
+.kontaktformular{
+  margin-bottom: 100px;
+  background-color: var(--grün);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kontaktrechts{
+  flex: 1;
+  text-align: right;
+}
+
+.kontaktleer{
+  flex: 2;
+}
+
+.sendbutton{
+  background-color: var(--violett);
+  border-radius: 16px;
+  text-align: center;
+ 
+
+}
