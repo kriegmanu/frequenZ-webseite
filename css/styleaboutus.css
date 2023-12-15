@@ -18,6 +18,10 @@ h1{
     letter-spacing: 24px;
 }
 
+.h1_rechts{
+    text-align: right;
+}
+
 h2{    /* h2 */
     color:black;
     font-family: var(--comfortaa);
@@ -51,10 +55,6 @@ p{
     letter-spacing: 3.6px;
     margin: 0px;
 }
-
-/*.text_lisa{
-    width: 661px;
-}*/
 
 .button_text{
     font-family: var(--ubuntu)
@@ -129,6 +129,7 @@ p{
     display: flex;
     margin: 50px 0px 50px 0px;
     align-items: center;
+    justify-content: right;
    }
 
 .kontaktbutton_style {
@@ -155,7 +156,6 @@ p{
     display: flex;
     width: 392px;
     height: 480px;
-    justify-content: center;
     align-items: center;
     gap: 10px;
     margin-bottom: 50px;
@@ -183,14 +183,19 @@ p{
 .host_lisa{
     display: flex;
     flex-direction: row;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    justify-content: space-between;
 }
 
-.text_lisa{
+.content_lisa{
     display: flex;
-    padding-right: 50px;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 50px 0px 0px;
+    flex: 3;
+}
+
+.rechterbereich{
+    flex: 2;
+    float:right;
 }
 
 .host_luca{
@@ -239,31 +244,24 @@ p{
     padding: 100px 120px 100px 120px;
 }
 
-.was_ghoeri_breite{
-    width: 2000px;
-    text-align: right;
-}
-
 .was_ghoeri_rechts{
     text-align: right;
     flex-direction: row-reverse;
 }
 
-.was_ghoeri_breite{
-    width: max-content;
+.berite_autehitizitaet{
+    justify-content: right;
 }
 
-.was_aufteilung{
+.aufteilung{
     display: flex;
     flex-direction: row;
+    text-align: right;
+    justify-content: right;
 }
 
-.was_linkerbereich{
+.linkerleerbereich{
     flex:2;
-}
-
-.was_inhalt{
-    flex:3;
 }
 
 .wieso_ghoeris{
@@ -271,6 +269,7 @@ p{
     display: flex;
     flex-direction: column;
     padding: 100px 120px 100px 120px;
+    justify-content: right;
 }
 
 .geschichte{
@@ -282,4 +281,10 @@ p{
     display: flex;
     flex-direction: column;
     padding: 100px 120px 100px 120px;
+}
+
+.content_rechts{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
 }
