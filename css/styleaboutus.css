@@ -50,10 +50,11 @@ p{
     line-height: normal;
     letter-spacing: 3.6px;
     margin: 0px;
-    width: 1200px;
-    flex-direction: row;
-    row-gap: 147px;
 }
+
+/*.text_lisa{
+    width: 661px;
+}*/
 
 .button_text{
     font-family: var(--ubuntu)
@@ -75,10 +76,78 @@ p{
     margin-right: 50px;
    }
 
+.button_style:hover {
+    background-color: var(--grün);
+}
+
+.downloadbutton_text{
+    font-family: var(--ubuntu)
+}
+
+.downloadbutton{
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    align-items: center;
+    justify-content: right;
+   }
+
+.downloadbutton_style {
+    background-color: #A18DF3;
+    border-radius: 16px;
+    display: flex;
+    width: 257px;
+    padding: 20px 24px;
+    justify-content: center;
+    margin-left: 50px;
+   }
+
+.downloadbutton_style:hover {
+    background-color: var(--orange);
+}
+
+.downloadbutton2{
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    align-items: center;
+   }
+
+.downloadbutton_style2 {
+    background-color: #A18DF3;
+    border-radius: 16px;
+    display: flex;
+    width: 257px;
+    padding: 20px 24px;
+    justify-content: center;
+    margin-right: 50px;
+   }
+
+.downloadbutton_style2:hover {
+    background-color: var(--grün);
+}
+
+.kontaktbutton {
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    align-items: center;
+   }
+
+.kontaktbutton_style {
+    background-color: #FF825C;
+    border-radius: 16px;
+    display: flex;
+    width: 257px;
+    padding: 20px 24px;
+    justify-content: center;
+    margin-left: 50px;
+   }
+   
+.kontaktbutton_style:hover {
+    background-color: var(--grün);
+}
+
 .wer_ghoeri{
     background-color: #A18DF3;
     display: flex;
-    height: 3623px;
     padding: 100px 120px 100px 120px;
 }
 
@@ -86,41 +155,131 @@ p{
     display: flex;
     width: 392px;
     height: 480px;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
 }
 
-.titel_stimmprobe_lisa{
+.content_stimmprobe{
     margin: 0px 0px 0px 0px;
+    text-align: right;
 }
 
 .seekbar{
-    width: auto;
+    width: 250px;
     height: 24px;
     margin: 50px 0px 0px 0px;
+    background-image: url('/img/seekbar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+
+.seekbar:hover{
+    background-image: url('/img/seekbar_hover.png');
+}
+
+.host_lisa{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+.text_lisa{
+    display: flex;
+    padding-right: 50px;
+}
+
+.host_luca{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+.text_luca{
+    display: flex;
+    padding-right: 50px;
+}
+
+.host_jula{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+.text_jula{
+    display: flex;
+    padding-right: 50px;
+}
+
+.host_manu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+.text_manu{
+    display: flex;
+    padding-right: 50px;
 }
 
 .was_ghoeri{
     background-color: #B4FF69;
     display: flex;
-    height: 1253px;
+    flex-direction: row-reverse;
     padding: 100px 120px 100px 120px;
 }
 
-.titel_was_ghoeri{
-    height: 50px;
+.was_ghoeri_breite{
+    width: 2000px;
     text-align: right;
+}
+
+.was_ghoeri_rechts{
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.was_ghoeri_breite{
+    width: max-content;
+}
+
+.was_aufteilung{
+    display: flex;
+    flex-direction: row;
+}
+
+.was_linkerbereich{
+    flex:2;
+}
+
+.was_inhalt{
+    flex:3;
 }
 
 .wieso_ghoeris{
     background-color: #FF825C;
     display: flex;
-    height: 1197px;
+    flex-direction: column;
     padding: 100px 120px 100px 120px;
+}
+
+.geschichte{
+    width: 931px;
 }
 
 .woher_ghoeris{
     background-color: #A18DF3;
     display: flex;
-    height: 786px;
+    flex-direction: column;
     padding: 100px 120px 100px 120px;
 }
