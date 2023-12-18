@@ -7,7 +7,8 @@
 }
 
 body{
-    margin: 0;
+    margin: auto;
+    max-width: 1600px;
 }
 
 h1{
@@ -46,9 +47,8 @@ h3{     /* h3 */
 
 p{
     color: #000;
-    display: flex;
     font-family: Comfortaa;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -107,7 +107,7 @@ p{
 
 .downloadbutton2{
     display: flex;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px 0px 0px;
     align-items: center;
    }
 
@@ -127,7 +127,7 @@ p{
 
 .kontaktbutton {
     display: flex;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px 0px 0px;
     align-items: center;
     justify-content: right;
    }
@@ -154,11 +154,59 @@ p{
 
 .image_host{
     display: flex;
-    width: 392px;
-    height: 480px;
+    width: auto;
+    height: 350px;
     align-items: center;
     gap: 10px;
     margin-bottom: 50px;
+    justify-content: right;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #B4FF69;
+    border-width: 4px;
+}
+
+.image_container{
+    width:250px;
+    height:350px;
+    background-size: cover;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #B4FF69;
+    border-width: 4px;
+}
+
+.lisa{
+    background-image: url('/img/Lisa_1.png');
+}
+
+.lisa:hover{
+    background-image: url('/img/Lisa_2.png');
+}
+
+.luca{
+    background-image: url('/img/Luca_1.png');
+}
+
+.luca:hover{
+    background-image: url('/img/Luca_2.png');
+}
+
+.jula{
+    background-image: url('/img/Jula_1.png');
+}
+
+.jula:hover{
+    background-image: url('/img/Jula_2.png');
+}
+
+.manu{
+    background-image: url('/img/Manu_1.png');
+}
+
+.manu:hover{
+    background-image: url('/img/Manu_2.png');
 }
 
 .content_stimmprobe{
@@ -180,18 +228,13 @@ p{
     background-image: url('/img/seekbar_hover.png');
 }
 
-.rechterbereich{
-    flex: 2;
-    float: right;
-}
-
 .rechtesbild{
     flex: 2;
     margin-left: auto;
     float: right;
 }
 
-.host_lisa{
+.hosts{
     display: flex;
     flex-direction: row;
     margin: 0px 0px 0px 0px;
@@ -199,63 +242,12 @@ p{
     justify-content: space-between;
 }
 
-.text_lisa{
+.text_host{
     display: flex;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
-.content_lisa{
-    flex: 3;
-}
-
-.host_luca{
-    display: flex;
-    flex-direction: row;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    justify-content: space-between;
-}
-
-.text_luca{
-    display: flex;
-    padding-right: 50px;
-}
-
-.content_luca{
-    flex: 3;
-}
-
-.host_jula{
-    display: flex;
-    flex-direction: row;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    justify-content: space-between;
-}
-
-.text_jula{
-    display: flex;
-    padding-right: 50px;
-}
-
-.content_jula{
-    flex: 3;
-}
-
-.host_manu{
-    display: flex;
-    flex-direction: row;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    justify-content: space-between;
-}
-
-.text_manu{
-    display: flex;
-    padding-right: 50px;
-}
-
-.content_manu{
+.content_host{
     flex: 3;
 }
 
@@ -291,7 +283,7 @@ p{
 }
 
 .content_links{
-    flex: 3;
+    flex: 4;
 }
 
 .wieso_ghoeris{
@@ -317,5 +309,10 @@ p{
 .content_rechts{
     display: flex;
     flex-direction: column;
-    flex: 3;
+    flex: 4;
+}
+
+.rechtsbuendigertext{
+    text-align: right;
+    justify-content: right;
 }
