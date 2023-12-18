@@ -1,0 +1,55 @@
+:root{
+    --orange: #FF825C;
+    --violett:#A18DF3;
+    --grün: #B4FF69;
+    --comfortaa: 'Comfortaa', sans-serif;
+    --ubuntu: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    color:black;
+    font-family: var(--comfortaa);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 16px;
+    padding: 100px 0px 50px 0px;
+    margin: 0px; 
+}
+
+.livestart {
+    background-color: var(--grün);
+    background-image: url('/img/hintergrund_einleitung.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+    height: max-content;
+    display: flex;
+}
+
+.textlinks {
+    font-family: var(--comfortaa);
+    flex: 1;
+    padding: 80px 0px 80px 120px;
+    text-align: left;
+}
+
+.textrechts {
+    font-family: var(--comfortaa);
+    flex: 1;
+    margin-right: 120px;
+    text-align: right;
+}
+
+.titelrechts {
+    flex: 1;
+}
+
+.leerlinks {
+    flex: 1;
+}
+
+.leerrechts {
+    flex: 1;
+}
