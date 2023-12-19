@@ -71,6 +71,7 @@ footer {
 .footer-column1 {
     margin-left: 120px;
   }
+
 .socialmedia {
     justify-content: space-between;
     display: flex;
@@ -198,6 +199,7 @@ nav{
     font-size: 20px;
     font-weight: 700;
 }
+
 a {
     color: var(--grün);
     text-decoration: none;
@@ -286,3 +288,96 @@ a:hover {
     background-position: bottom center;
     background-size: contain;
   } 
+
+  @media (max-width: 600px) {
+    .logo {
+        height: 70px;
+        display: flex;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 20px 30px 20px 30px;
+        background-size: 800px; /* Oder die gewünschte Größe */
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-position-y: -650px;
+        background-position-x: 100px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .live_container {
+        height: 100px;
+        width: 300px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 4px;
+        padding: 4px;
+    }
+
+    .liveplayer {
+        padding-right: 30px;
+        flex: 3;
+        font-family: var(--comfortaa);
+        font-size: 12px;
+    }
+    
+    .live_bild {
+        width: 50px;
+        height: 50px;
+        background-image: url('/img/Playbutton.png');
+        background-size:contain;
+        margin: 4px;
+    }
+    .footer {
+        font-size: 12px;
+        font-weight: 600;
+        flex-direction: column;
+        padding: 20px 30px 20px 30px;
+      }
+    
+    .footer-column1, .footer-column2, .footer-column3  {
+        margin: 0px 0px 0px 0px;
+        flex: none;
+      }
+
+    .footer-column2 {
+        margin-top: -25px; /* damit die Icons nicht so weit unten sind, wegen den <br> im html */
+      }
+    
+    .footer-column3 {
+        margin-top: 30px
+      }
+      
+    .socialmedia {
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+
+      .instagram, .youtube, .tiktok {
+        height: 20px;
+      }
+  }
