@@ -6,6 +6,10 @@
     --ubuntu: 'Ubuntu', sans-serif;
 }
 
+body{
+  margin: auto;
+  max-width: 1600px;
+}
 
 /*
   .einleitungstext{  

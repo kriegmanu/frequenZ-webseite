@@ -104,6 +104,10 @@ p{
   display: flex;
   flex-direction: column;
   padding: 100px 120px 100px 120px;
+  background-image: url(../img/Z-black-15.png);
+  background-repeat: no-repeat;
+  background-position: -150px 300px;
+  background-size: 95%;
 }
 
 .oeffnungszeiten{
@@ -111,6 +115,10 @@ p{
   display: flex;
   flex-direction: column;
   padding: 100px 120px 100px 120px;
+  background-image: url(../img/Z-black-15.png);
+  background-repeat: no-repeat;
+  background-position: 700px -425px;
+  background-size: 60%;
 }
 
 /*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*/

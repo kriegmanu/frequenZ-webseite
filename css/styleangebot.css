@@ -6,6 +6,11 @@
     --ubuntu: 'Ubuntu', sans-serif;
 }
 
+body{
+    margin: auto;
+    max-width: 1600px;
+  }
+  
 h2 {
     color:black;
     font-family: var(--comfortaa);

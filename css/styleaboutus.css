@@ -150,6 +150,10 @@ p{
     background-color: #A18DF3;
     display: flex;
     padding: 100px 120px 100px 120px;
+    background-image: url(../img/Z-black-15.png);
+    background-repeat: no-repeat;
+    background-position: -150px 300px;
+    background-size: 180%;
 }
 
 .image_host{
@@ -178,35 +182,35 @@ p{
 }
 
 .lisa{
-    background-image: url('/img/Lisa_1.png');
+    background-image: url('/img/lisa_original.png');
 }
 
 .lisa:hover{
-    background-image: url('/img/Lisa_2.png');
+    background-image: url('/img/lisa_hover.png');
 }
 
 .luca{
-    background-image: url('/img/Luca_1.png');
+    background-image: url('/img/luca_original.png');
 }
 
 .luca:hover{
-    background-image: url('/img/Luca_2.png');
+    background-image: url('/img/luca_hover.png');
 }
 
 .jula{
-    background-image: url('/img/Jula_1.png');
+    background-image: url('/img/jula_original.png');
 }
 
 .jula:hover{
-    background-image: url('/img/Jula_2.png');
+    background-image: url('/img/jula_hover.png');
 }
 
 .manu{
-    background-image: url('/img/Manu_1.png');
+    background-image: url('/img/manu_original.png');
 }
 
 .manu:hover{
-    background-image: url('/img/Manu_2.png');
+    background-image: url('/img/manu_hover.png');
 }
 
 .content_stimmprobe{
@@ -251,11 +255,34 @@ p{
     flex: 3;
 }
 
+video{
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #B4FF69;
+    border-width: 4px;
+}
+
+.videocontent{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .teamvideo{
+    border: solid;
+    border-color: #B4FF69;
+    border-radius: 16px;
+    border-width: 4px;
+} */
+
 .was_ghoeri{
     background-color: #B4FF69;
     display: flex;
     flex-direction: row-reverse;
     padding: 100px 120px 100px 120px;
+    background-image: url(../img/Z-black-15.png);
+    background-repeat: no-repeat;
+    background-position: 150px 800px;
+    background-size: 45%;
 }
 
 .was_ghoeri_rechts{
@@ -293,6 +320,10 @@ p{
     padding: 100px 120px 100px 120px;
     justify-content: right;
     text-align: right;
+    background-image: url(../img/Z-black-15.png);
+    background-repeat: no-repeat;
+    background-position: 650px -875px;
+    background-size: 80%;
 }
 
 .titel_geschichte{
@@ -304,6 +335,10 @@ p{
     display: flex;
     flex-direction: column;
     padding: 100px 120px 100px 120px;
+    background-image: url(../img/Z-black-15.png);
+    background-repeat: no-repeat;
+    background-position: 200px -150px;
+    background-size: 35%;
 }
 
 .content_rechts{
