@@ -64,6 +64,7 @@ p{
     display: flex;
     margin: 50px 0px 50px 0px;
     align-items: center;
+    cursor: pointer;
    }
 
 .button_style {
@@ -89,6 +90,7 @@ p{
     margin: 50px 0px 50px 0px;
     align-items: center;
     justify-content: right;
+    cursor: pointer;
    }
 
 .downloadbutton_style {
@@ -109,6 +111,7 @@ p{
     display: flex;
     margin: 50px 0px 0px 0px;
     align-items: center;
+    cursor: pointer;
    }
 
 .downloadbutton_style2 {
@@ -130,6 +133,7 @@ p{
     margin: 50px 0px 0px 0px;
     align-items: center;
     justify-content: right;
+    cursor: pointer;
    }
 
 .kontaktbutton_style {
@@ -226,6 +230,7 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .seekbar:hover{
