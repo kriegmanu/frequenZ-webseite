@@ -13,42 +13,138 @@ body{
   
 h2 {
     color:black;
+    padding: 100px 0px 50px 0px;
+    margin: 0px; 
     font-family: var(--comfortaa);
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 16px;
-    padding: 100px 0px 50px 0px;
-    margin: 0px; 
+    text-align: right;
 }
 
 .livestart {
-    background-color: var(--grün);
-    background-image: url('/img/hintergrund_einleitung.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 500px;
-    height: max-content;
     display: flex;
+    background-color: var(--grün);
+    background-image: url('/img/Z-black-15.png');
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 60%;
+    background-size: 450px;
+
 }
 
 .textlinks {
     font-family: var(--comfortaa);
+    display: flex;
     flex: 1;
     padding: 80px 0px 80px 120px;
     text-align: left;
+    font-size: 20px;
+}
+
+.playbutton {
+    background-color: #FF825C;
+    background-image: url('/img/Playbutton_dreieck.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    width: 80px;
+    padding: 20px 24px;
+    justify-content: center;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.playbutton:hover {
+    background-color: var(--violett);
+    background-image: url('/img/Playbutton_dreieck.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    width: 80px;
+    padding: 20px 24px;
+    justify-content: center;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.livetext {
+    flex: 3;
 }
 
 .textrechts {
-    font-family: var(--comfortaa);
+   font-family: var(--comfortaa);
+    display: flex;
     flex: 1;
-    margin-right: 120px;
+    padding: 80px 120px 80px 0px;
     text-align: right;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.applink {
+    width: 257px;
+    height: 40px; 
+    background-color: #B4FF69;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.applink:hover {
+    width: 257px;
+    height: 40px; 
+    background-color: var(--violett);
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.applink2 {
+    width: 257px;
+    height: 40px; 
+    background-color: #B4FF69;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.applink2:hover {
+    width: 257px;
+    height: 40px; 
+    background-color: var(--orange);
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .titelrechts {
     flex: 1;
+    margin-right: 120px;
 }
 
 .leerlinks {
@@ -61,4 +157,157 @@ h2 {
 
 .angebot{
     color: var(--orange)
+}
+
+.live-chat {
+    display: flex;
+    background-color: var(--orange);
+    background-image: url('/img/Z-black-15.png');
+    background-repeat: no-repeat;
+    background-position-x: -70%;
+    background-position-y: 30%;
+    background-size: 900px;
+    
+}
+.platzhalterbild {
+    width: 392px;
+    height: 318px;
+    background-size: cover;
+    margin: 80px 0px 80px 120px;
+    border-radius: 16px;
+    background-color: var(--violett);
+    background-image: url(/img/seekbar.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 280px;
+    padding-bottom: 10px;
+}
+
+.platzhalterbild2 {
+    width: 392px;
+    height: 318px;
+    background-size: cover;
+    margin: 80px 0px 80px 120px;
+    border-radius: 16px;
+    background-color: var(--orange);
+    background-image: url(/img/seekbar.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 280px;
+    padding-bottom: 10px;
+}
+
+.live-voting {
+    display: flex;
+    background-color: #A18DF3;
+    background-image: url(/img/Z-black-15.png);
+    background-repeat: no-repeat;
+    background-position-y: -50%;
+    background-position-x: center;
+}
+
+.portal {
+    background-color: var(--grün);
+    font-family: var(--comfortaa);
+    font-size: 20px;
+    padding: 0px 120px 80px 120px;
+    background-image: url(/img/Z-black-15.png);
+    background-repeat: no-repeat;
+    background-position-x:160%;
+    background-position-y:-60%;
+}
+
+.portaltitel {
+    text-align: right;
+}
+
+.portaloben {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.portaltextrechts {
+    flex: 1;
+    text-align: right;
+}
+
+.portalobenlinks {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxrechts {
+    background-color: var(--orange);
+    height: 260px;
+    width: 100px;
+    border-radius: 16px;
+    flex: 1;
+    margin: 10px;
+    background-image: url(/img/musikicon.png);
+    size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boxmitte {
+    background-color: var(--violett);
+    height: 300px;
+    width: 140px;
+    border-radius: 16px;
+    flex: 1;
+    margin: 10px;
+    background-image: url(/img/Platzhaltericon.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boxlinks {
+    background-color: var(--orange);
+    height: 260px;
+    width: 100px;
+    border-radius: 16px;
+    flex: 1;
+    margin: 10px;
+    background-image: url(/img/musikicon.png);
+    size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portalunten {
+    display: flex;
+}
+
+.portaluntenrechts {
+    flex: 1;
+}
+
+.portaltextlinks {
+    flex: 1;
+}
+
+.searchbar {
+    display: flex;
+    width: 450px;
+    height: 40px;
+    padding: 16px 20px 16px 24px;
+    align-items: center;
+    background-color: var(--violett);
+    border-radius: 16px;
+}
+
+.lupe {
+    flex: 1;
+}
+
+.searchblock {
+    flex: 7;
+    background-color: black;
+    height: 10px;
+    border-radius: 16px;
 }
