@@ -8,7 +8,7 @@
 
 body{
     margin: auto;
-    max-width: 1600px;
+    max-width: 100%;
 }
 
 h1{
@@ -362,18 +362,13 @@ video{
 }
 
 /*Smartphone-Ansicht*/
-@media (max-width: 600px){
+@media (max-width: 1000px){
     :root{
         --orange: #FF825C;
         --violett:#A18DF3;
         --grün: #B4FF69;
         --comfortaa: 'Comfortaa', sans-serif;
         --ubuntu: 'Ubuntu', sans-serif;
-    }
-
-    body{
-        margin: auto;
-        max-width: 600px;
     }
     
     h1{
@@ -605,7 +600,7 @@ video{
 
     .hosts{
         display: flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
         justify-content: space-between;
@@ -717,5 +712,11 @@ video{
     .rechtsbuendigertext{
         text-align: left;
         justify-content: left;
+    }
+}
+
+@media (max-width: 600px){
+    .hosts{
+        flex-direction: column;
     }
 }

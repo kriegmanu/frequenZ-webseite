@@ -9,7 +9,7 @@
 body{
     margin: auto;
     letter-spacing: 2.4px;
-    max-width: 1600px;
+    max-width: 100%;
 }
 
 b {
@@ -149,6 +149,7 @@ footer {
 
 .instagram, .youtube, .tiktok {
     height: 65px;
+    padding: 5px;
   }
 
 header {
@@ -189,6 +190,10 @@ header {
     list-style: none;
 }
 
+.menu li {
+    padding: 0px 20px 0px 0px;
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -213,8 +218,7 @@ a:hover {
     background-color: #A18DF3;
     height: 141px;
     width: 629px;
-    margin-bottom: 50px;
-    margin-top: 58px;
+    margin: 58px 0px 50px 20px;
     border-radius: 16px;
     padding: 16px;
     justify-content: space-around;
@@ -293,7 +297,7 @@ a:hover {
     color: var(--orange);
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     .logo {
         height: 70px;
         display: flex;
@@ -359,21 +363,12 @@ a:hover {
     .footer {
         font-size: 12px;
         font-weight: 600;
-        flex-direction: column;
         padding: 20px 30px 20px 30px;
       }
     
     .footer-column1, .footer-column2, .footer-column3  {
         margin: 0px 0px 0px 0px;
         flex: none;
-      }
-
-    .footer-column2 {
-        margin-top: -25px; /* damit die Icons nicht so weit unten sind, wegen den <br> im html */
-      }
-    
-    .footer-column3 {
-        margin-top: 30px
       }
       
     .socialmedia {
@@ -383,5 +378,19 @@ a:hover {
 
       .instagram, .youtube, .tiktok {
         height: 20px;
+      }
+  }
+
+  @media (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-column2 {
+        margin-top: -25px; /* damit die Icons nicht so weit unten sind, wegen den <br> im html */
+      }
+
+    .footer-column3 {
+        margin-top: 30px
       }
   }

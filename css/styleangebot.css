@@ -8,7 +8,7 @@
 
 body{
     margin: auto;
-    max-width: 1600px;
+    max-width: 100%;
   }
   
 h2 {
@@ -57,6 +57,7 @@ h2 {
     justify-content: center;
     margin-right: 50px;
     flex: 1;
+    cursor: pointer;
 }
 
 .playbutton:hover {
@@ -101,6 +102,7 @@ h2 {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .applink:hover {
@@ -127,6 +129,7 @@ h2 {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .applink2:hover {
@@ -291,23 +294,19 @@ h2 {
     flex: 1;
 }
 
-.searchbar {
-    display: flex;
-    width: 450px;
-    height: 40px;
-    padding: 16px 20px 16px 24px;
-    align-items: center;
-    background-color: var(--violett);
+.input{
+    font-family: var(--comfortaa);
+    font-size: 20px;
+    letter-spacing: 3.6px;
+    margin: 10px 0px 30px 0px;
+    background-color: #A18DF3;
     border-radius: 16px;
-}
-
-.lupe {
-    flex: 1;
-}
-
-.searchblock {
-    flex: 7;
-    background-color: black;
-    height: 10px;
-    border-radius: 16px;
-}
+    width: 600px;
+    border-style: none;
+    padding: 10px;
+    outline:none;
+  }
+  
+  input[type=text]:focus {
+    background-color: #FF825C;
+  }
