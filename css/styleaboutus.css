@@ -56,6 +56,10 @@ p{
     margin: 0px;
 }
 
+.ueberuns{
+    color: var(--orange);
+}
+
 .button_text{
     font-family: var(--ubuntu)
 }
@@ -450,12 +454,10 @@ video{
         display: flex;
         margin: 10px 0px 10px 0px;
         align-items: center;
-        justify-content: right;
-        cursor: pointer;
+        justify-content: left;
     }
 
     .downloadbutton_style {
-        background-color: #A18DF3;
         border-radius: 4px;
         display: flex;
         width: 160px;
@@ -472,11 +474,9 @@ video{
         display: flex;
         margin: 10px 0px 0px 0px;
         align-items: center;
-        cursor: pointer;
     }
 
     .downloadbutton_style2 {
-        background-color: #A18DF3;
         border-radius: 4px;
         display: flex;
         width: 160px;

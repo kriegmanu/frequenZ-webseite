@@ -58,3 +58,7 @@ h2 {
 .leerrechts {
     flex: 1;
 }
+
+.angebot{
+    color: var(--orange)
+}

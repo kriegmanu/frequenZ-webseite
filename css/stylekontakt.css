@@ -190,3 +190,7 @@ cursor: pointer;
 input[type=text]:focus {
   background-color: #A18DF3;
 }
+
+.kontakt{
+  color: var(--orange);
+}
