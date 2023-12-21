@@ -25,6 +25,16 @@ h1 {
     margin:0;
 }
 
+h3{     /* h3 */
+    color: black;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
 .logo {
     height: 97px;
     display: block;
@@ -46,6 +56,7 @@ span {
 footer {
     background-color: black;
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -298,13 +309,37 @@ a:hover {
   }
   
   @media (max-width: 1000px) {
+    h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    .h1_rechts{
+        text-align: left;
+    }
+    
+    h2{    /* h2 */
+        font-size: 24px;
+        letter-spacing: 4px;
+        padding: 20px 0px 10px 0px;  
+    }
+    
+    h3{     /* h3 */
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    
+    p{
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
     .logo {
         height: 70px;
         display: flex;
     }
 
     header {
-        flex-direction: column;
         padding: 20px 30px 20px 30px;
         background-size: 800px; /* Oder die gewünschte Größe */
         background-repeat: no-repeat;
@@ -313,35 +348,20 @@ a:hover {
         background-position-x: 100px;
     }
 
-    .header {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     .menu {
         flex-direction: column;
-        justify-content: space-around;
         align-items: flex-start;
-        width: 100%;
         margin: 0px 0px 0px 0px;
     }
     
     nav{
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
         font-size: 12px;
-        font-weight: 700;
     }
 
     .live_container {
         height: 100px;
-        width: 300px;
-        margin-bottom: 10px;
-        margin-top: 10px;
+        width: 315px;
+        margin: 10px 0px 10px 10px;
         border-radius: 4px;
         padding: 4px;
     }
@@ -349,8 +369,8 @@ a:hover {
     .liveplayer {
         padding-right: 30px;
         flex: 3;
-        font-family: var(--comfortaa);
         font-size: 12px;
+        letter-spacing: 1.5px;
     }
     
     .live_bild {
@@ -392,5 +412,9 @@ a:hover {
 
     .footer-column3 {
         margin-top: 30px
+      }
+
+    .header {
+        flex-direction: column;
       }
   }

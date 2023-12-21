@@ -363,90 +363,19 @@ video{
 
 /*Smartphone-Ansicht*/
 @media (max-width: 1000px){
-    :root{
-        --orange: #FF825C;
-        --violett:#A18DF3;
-        --grün: #B4FF69;
-        --comfortaa: 'Comfortaa', sans-serif;
-        --ubuntu: 'Ubuntu', sans-serif;
-    }
-    
-    h1{
-        color:black;
-        font-family: var(--comfortaa);
-        font-size: 40px;
-        margin:0;
-        letter-spacing: 4px;
-    }
-
-    .h1_rechts{
-        text-align: left;
-    }
-    
-    h2{    /* h2 */
-        color:black;
-        font-family: var(--comfortaa);
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: 4px;
-        padding: 20px 0px 10px 0px;
-        margin: 0px;   
-    }
-    
-    h3{     /* h3 */
-        color: black;
-        font-family: Ubuntu;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 3.6px;
-    }
-    
-    p{
-        color: #000;
-        font-family: Comfortaa;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: 3.6px;
-        margin: 0px;
-    }
-
-    .button_text{
-        font-family: var(--ubuntu)
-    }
 
     .button{
-        display: flex;
         margin: 10px 0px 10px 0px;
-        align-items: center;
-        cursor: pointer;
     }
 
     .button_style {
-        background-color: #FF825C;
         border-radius: 4px;
-        display: flex;
         width: 160px;
         padding: 5px 6px;
-        justify-content: center;
         margin-right: 10px;
     }
 
-    .button_style:hover {
-        background-color: var(--grün);
-    }
-
-    .downloadbutton_text{
-        font-family: var(--ubuntu)
-    }
-
     .downloadbutton{
-        display: flex;
         margin: 10px 0px 10px 0px;
         align-items: center;
         justify-content: left;
@@ -454,70 +383,46 @@ video{
 
     .downloadbutton_style {
         border-radius: 4px;
-        display: flex;
         width: 160px;
         padding: 5px 6px;
         justify-content: center;
         margin-left: 10px;
     }
 
-    .downloadbutton_style:hover {
-        background-color: var(--orange);
-    }
-
     .downloadbutton2{
-        display: flex;
         margin: 10px 0px 0px 0px;
         align-items: center;
     }
 
     .downloadbutton_style2 {
         border-radius: 4px;
-        display: flex;
         width: 160px;
         padding: 5px 6px;
         justify-content: center;
         margin-right: 10px;
     }
 
-    .downloadbutton_style2:hover {
-        background-color: var(--grün);
-    }
-
     .kontaktbutton {
-        display: flex;
         margin: 10px 0px 0px 0px;
         align-items: center;
         justify-content: left;
-        cursor: pointer;
     }
 
     .kontaktbutton_style {
-        background-color: #FF825C;
         border-radius: 4px;
-        display: flex;
         width: 160px;
         padding: 5px 6px;
         justify-content: center;
         margin-left: 10px;
     }
-    
-    .kontaktbutton_style:hover {
-        background-color: var(--grün);
-    }
 
     .wer_ghoeri{
-        background-color: #A18DF3;
-        display: flex;
         padding: 25px 30px 25px 30px;
-        background-image: url(../img/Z-black-15.png);
-        background-repeat: no-repeat;
         background-position: -150px 300px;
         background-size: 180%;
     }
 
     .image_host{
-        display: flex;
         width: auto;
         height: 150px;
         align-items: center;
@@ -525,56 +430,18 @@ video{
         margin-bottom: 10px;
         justify-content: left;
         border-radius: 4px;
-        border-style: solid;
-        border-color: #B4FF69;
         border-width: 2px;
     }
 
     .image_container{
         width:100px;
         height:150px;
-        background-size: cover;
         margin-bottom: 10px;
         border-radius: 4px;
-        border-style: solid;
-        border-color: #B4FF69;
         border-width: 2px;
     }
 
-    .lisa{
-        background-image: url('/img/lisa_original.png');
-    }
-
-    .lisa:hover{
-        background-image: url('/img/lisa_hover.png');
-    }
-
-    .luca{
-        background-image: url('/img/luca_original.png');
-    }
-
-    .luca:hover{
-        background-image: url('/img/luca_hover.png');
-    }
-
-    .jula{
-        background-image: url('/img/jula_original.png');
-    }
-
-    .jula:hover{
-        background-image: url('/img/jula_hover.png');
-    }
-
-    .manu{
-        background-image: url('/img/manu_original.png');
-    }
-
-    .manu:hover{
-        background-image: url('/img/manu_hover.png');
-    }
-
     .content_stimmprobe{
-        margin: 0px 0px 0px 0px;
         text-align: left;
     }
 
@@ -582,15 +449,8 @@ video{
         width: 100px;
         height: 24px;
         margin: 10px 0px 0px 0px;
-        background-image: url('/img/seekbar.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        cursor: pointer;
     }
 
-    .seekbar:hover{
-        background-image: url('/img/seekbar_hover.png');
-    }
 
     .rechtesbild{
         flex: 2;
@@ -611,36 +471,22 @@ video{
     }
 
     .content_host{
-        flex: 3;
+        padding-bottom: 10px;
     }
 
     video{
         border-radius: 4px;
-        border-style: solid;
-        border-color: #B4FF69;
         border-width: 2px;
         width: 265px;
     }
 
     .videocontent{
-        display: flex;
         flex-direction: column;
     }
 
-    /* .teamvideo{
-        border: solid;
-        border-color: #B4FF69;
-        border-radius: 16px;
-        border-width: 4px;
-    } */
-
     .was_ghoeri{
-        background-color: #B4FF69;
-        display: flex;
         flex-direction: row-reverse;
         padding: 25px 30px 25px 30px;
-        background-image: url(../img/Z-black-15.png);
-        background-repeat: no-repeat;
         background-position: 150px 800px;
         background-size: 45%;
     }
@@ -650,14 +496,12 @@ video{
     }
 
     .aufteilung{
-        display: flex;
         flex-direction: column;
         text-align: left;
         justify-content: left;
     }
 
     .aufteilung2{
-        display: flex;
         flex-direction: column;
     }
 
@@ -676,14 +520,9 @@ video{
     }
 
     .wieso_ghoeris{
-        background-color: #FF825C;
-        display: flex;
-        flex-direction: column;
         padding: 25px 30px 25px 30px;
         justify-content: left;
         text-align: left;
-        background-image: url(../img/Z-black-15.png);
-        background-repeat: no-repeat;
         background-position: 650px -875px;
         background-size: 80%;
     }
@@ -693,20 +532,9 @@ video{
     }
 
     .woher_ghoeris{
-        background-color: #A18DF3;
-        display: flex;
-        flex-direction: column;
         padding: 25px 30px 25px 30px;
-        background-image: url(../img/Z-black-15.png);
-        background-repeat: no-repeat;
         background-position: 200px -150px;
         background-size: 35%;
-    }
-
-    .content_rechts{
-        display: flex;
-        flex-direction: column;
-        flex: 4;
     }
 
     .rechtsbuendigertext{
@@ -719,4 +547,6 @@ video{
     .hosts{
         flex-direction: column;
     }
+
+
 }

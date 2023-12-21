@@ -194,3 +194,98 @@ input[type=text]:focus {
 .kontakt{
   color: var(--orange);
 }
+
+@media (max-width: 1000px) {
+
+  .text_rechts{
+    text-align: left;
+    margin: 0px;
+  }
+  
+  .text_links{
+    margin: 0px;
+  }
+  
+  .adresse{
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    background-position: right -350px;
+    background-size: 65%;
+  }
+  
+  .wegbeschreibung{
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    background-position: 900px 430px;
+    background-size: 40%;
+  }
+  
+  .parkmoeglichkeiten{
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    background-position: center 200px;
+    background-size: 100%;
+  }
+  
+  .support{
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    background-position: -150px 300px;
+    background-size: 95%;
+  }
+  
+  .oeffnungszeiten{
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+    background-position: 700px -425px;
+    background-size: 60%;
+  }
+  
+  /*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*/
+  
+  
+  .kontaktformular{
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 0%;
+  }
+  
+  .sendenbutton{
+    margin-bottom: 10px;
+   }
+  
+  .sendenbutton_style {
+    border-radius: 4px;
+    width: 160px;
+    padding: 5px 6px;
+    margin-left: 10px;
+   }
+
+  .kontaktschrift{
+    margin: 0px 0px 10px 10px;
+  }
+  
+  .h3intern{
+    margin: 10px 10px 0px 10px;
+    font-size: 12px;
+  }
+  
+  
+  .input{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin: 5px 0px 15px 0px;
+    border-radius: 4px;
+    width: 300px;
+    padding: 10px;
+  }
+
+  iframe{
+    width: 300px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 600px) {
+
+}
