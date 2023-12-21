@@ -11,6 +11,13 @@ body{
   max-width: 100%;
 }
 
+p{
+  margin: 0px 0px 0px 0px;
+}
+
+h3{
+  margin: 0px
+}
 /*
   .einleitungstext{  
     box-sizing: border-box; 
@@ -90,26 +97,13 @@ body{
 }
 */
 
-h5{
-    font-family: var(--comfortaa);
-    text-align: left;
-    font-size: 20px;
-    margin: 0px 0px 100px 0px;
-}
 .detail{
     text-align-last: right;
 }
 
-h3{
-    color:black;
-    font-family: var(--comfortaa);
-    text-align: left;
-    font-size: 30px;
-    margin:0;
-}
 .einleitung,.geschaeftsleitung, .corporatecommunications, .audiovisuelleserzaehlen, .interaktivemedien, .visualisieren{
     display: flex;
-    padding: 70px 120px 0px 120px;
+    padding: 100px 120px 100px 120px;
     
 }
 
@@ -144,7 +138,7 @@ h3{
     background-color: var(--grün);
     background-image: url('/img/hintergrund_audio.png');
     background-repeat: no-repeat;
-    background-position: leftt;
+    background-position: left;
     background-size: 1100px;
 }
 
@@ -174,4 +168,27 @@ h3{
 
 .links{
     flex: 1;   
+}
+
+@media (max-width: 1000px){
+  .einleitung,.geschaeftsleitung, .corporatecommunications, .audiovisuelleserzaehlen, .interaktivemedien, .visualisieren{
+    padding: 20px 30px 20px 30px;
+}
+  
+}
+
+@media (max-width: 600px){
+
+  .detail{
+    text-align-last: left;
+    text-align: left;
+  }
+  
+  .links{
+    flex: 0;
+  }
+
+  .rechts{
+    flex: 0;
+  }
 }
