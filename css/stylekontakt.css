@@ -197,6 +197,31 @@ input[type=text]:focus {
 
 @media (max-width: 1000px) {
 
+  h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.h1_rechts{
+    text-align: left;
+}
+
+h2{    /* h2 */
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding: 20px 0px 10px 0px;  
+}
+
+h3{     /* h3 */
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+p{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
   .text_rechts{
     text-align: left;
     margin: 0px;

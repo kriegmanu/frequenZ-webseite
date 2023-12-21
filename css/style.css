@@ -25,6 +25,18 @@ h1 {
     margin:0;
 }
 
+h2{    /* h2 */
+    color:black;
+    font-family: var(--comfortaa);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 16px;
+    padding: 100px 0px 50px 0px;
+    margin: 0px;   
+}
+
 h3{     /* h3 */
     color: black;
     font-family: Ubuntu;
@@ -196,8 +208,6 @@ header {
     align-items: center;
     width: 100%;
     margin: 50px 120px 0px 389px;
-    margin-top: ;
-
     list-style: none;
 }
 
@@ -277,11 +287,6 @@ a:hover {
     flex: 3;
 
 }
-
-.start_hintergrundbild {
-    /* Setze die gewünschte Höhe für das div */
-
-  }
   
   .titel_enkel {
     height: 75px;
@@ -398,6 +403,20 @@ a:hover {
 
       .instagram, .youtube, .tiktok {
         height: 20px;
+      }
+
+      .hi_inhalt {
+        margin: 0px 30px 0px 30px;
+      }
+
+      .titel_enkel{
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      p{
+        margin-bottom: 20px;
       }
   }
 

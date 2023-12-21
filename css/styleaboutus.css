@@ -364,6 +364,31 @@ video{
 /*Smartphone-Ansicht*/
 @media (max-width: 1000px){
 
+    h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    .h1_rechts{
+        text-align: left;
+    }
+    
+    h2{    /* h2 */
+        font-size: 24px;
+        letter-spacing: 4px;
+        padding: 20px 0px 10px 0px;  
+    }
+    
+    h3{     /* h3 */
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    
+    p{
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
     .button{
         margin: 10px 0px 10px 0px;
     }
@@ -548,5 +573,17 @@ video{
         flex-direction: column;
     }
 
+    .image_host{
+        height: 300px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
 
+    .image_container{
+        width:200px;
+        height:300px;
+    }
+    .seekbar{
+        width: 120px;
+    }
 }

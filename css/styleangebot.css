@@ -310,7 +310,7 @@ h2 {
   input[type=text]:focus {
     background-color: #FF825C;
   }
-
+  
   @media (max-width: 1000px) {
 
     h2 {
