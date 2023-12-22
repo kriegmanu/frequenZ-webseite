@@ -200,10 +200,7 @@ input[type=text]:focus {
   h1{
     font-size: 40px;
     letter-spacing: 4px;
-}
-
-.h1_rechts{
-    text-align: left;
+    padding: 0px 0px 10px 0px; 
 }
 
 h2{    /* h2 */
@@ -232,38 +229,23 @@ p{
   }
   
   .adresse{
-    flex-direction: column;
     padding: 20px 30px 20px 30px;
-    background-position: right -350px;
-    background-size: 65%;
   }
   
   .wegbeschreibung{
-    flex-direction: column;
     padding: 20px 30px 20px 30px;
-    background-position: 900px 430px;
-    background-size: 40%;
   }
   
   .parkmoeglichkeiten{
-    flex-direction: column;
     padding: 20px 30px 20px 30px;
-    background-position: center 200px;
-    background-size: 100%;
   }
   
   .support{
-    flex-direction: column;
     padding: 20px 30px 20px 30px;
-    background-position: -150px 300px;
-    background-size: 95%;
   }
   
   .oeffnungszeiten{
-    flex-direction: column;
     padding: 20px 30px 20px 30px;
-    background-position: 700px -425px;
-    background-size: 60%;
   }
   
   /*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*//*kontakt*/

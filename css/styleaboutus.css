@@ -402,7 +402,6 @@ video{
 
     .downloadbutton{
         margin: 10px 0px 10px 0px;
-        align-items: center;
         justify-content: left;
     }
 
@@ -410,26 +409,22 @@ video{
         border-radius: 4px;
         width: 160px;
         padding: 5px 6px;
-        justify-content: center;
         margin-left: 10px;
     }
 
     .downloadbutton2{
         margin: 10px 0px 0px 0px;
-        align-items: center;
     }
 
     .downloadbutton_style2 {
         border-radius: 4px;
         width: 160px;
         padding: 5px 6px;
-        justify-content: center;
         margin-right: 10px;
     }
 
     .kontaktbutton {
         margin: 10px 0px 0px 0px;
-        align-items: center;
         justify-content: left;
     }
 
@@ -437,14 +432,11 @@ video{
         border-radius: 4px;
         width: 160px;
         padding: 5px 6px;
-        justify-content: center;
         margin-left: 10px;
     }
 
     .wer_ghoeri{
         padding: 25px 30px 25px 30px;
-        background-position: -150px 300px;
-        background-size: 180%;
     }
 
     .image_host{
@@ -472,7 +464,6 @@ video{
 
     .seekbar{
         width: 100px;
-        height: 24px;
         margin: 10px 0px 0px 0px;
     }
 
@@ -485,10 +476,6 @@ video{
 
     .hosts{
         display: flex;
-        /*flex-direction: column;*/
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
-        justify-content: space-between;
     }
 
     .text_host{
@@ -510,14 +497,7 @@ video{
     }
 
     .was_ghoeri{
-        flex-direction: row-reverse;
         padding: 25px 30px 25px 30px;
-        background-position: 150px 800px;
-        background-size: 45%;
-    }
-
-    .was_ghoeri_rechts{
-        flex-direction: row-reverse;
     }
 
     .aufteilung{
@@ -548,8 +528,6 @@ video{
         padding: 25px 30px 25px 30px;
         justify-content: left;
         text-align: left;
-        background-position: 650px -875px;
-        background-size: 80%;
     }
 
     .titel_geschichte{
@@ -558,8 +536,7 @@ video{
 
     .woher_ghoeris{
         padding: 25px 30px 25px 30px;
-        background-position: 200px -150px;
-        background-size: 35%;
+
     }
 
     .rechtsbuendigertext{
