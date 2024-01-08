@@ -150,6 +150,10 @@ h2 {
     margin-right: 120px;
 }
 
+.titelrechts h2 {
+    padding-top: 0px;
+}
+
 .leerlinks {
     flex: 1;
 }
@@ -316,7 +320,7 @@ h2 {
     }
     
     .livestart {
-        padding: 20px 0px 10px 0px;  
+        padding: 25px 0px 10px 0px;  
     
     }
     
@@ -557,7 +561,6 @@ h2 {
       }
 
       .textlinks {
-        flex-direction: column;
         padding: 5px;
         margin: 25px 30px 25px 30px;
       }
@@ -584,7 +587,7 @@ h2 {
     }
 
     .portal h2 {
-        text-align: center;
+        text-align: left;
         padding: 5px;
     }
 
@@ -594,13 +597,18 @@ h2 {
 
     .titelrechts h2 {
         text-align: left;
-        padding: 0px;
+        padding: 5px 5px 5px 0px;
     }
     
     .textlinks {
         flex-direction: column;
-        padding: 5px;
-        margin: 25px 30px 25px 30px;
+        padding: 0px;
+        text-align: left;
+        margin: 0px 0px 25px 30px;
+    }
+
+    .live-voting .textlinks {
+        margin-left: 0px;
     }
 
      .playbutton {
@@ -618,7 +626,7 @@ h2 {
     .textrechts {
         text-align: left;
         padding: 5px;
-        margin: 20px 40px 20px 40px;
+        margin: 0px 0px 25px 0px;
     }
 
     .applink {
@@ -633,12 +641,6 @@ h2 {
         margin: 0;
     }
 
-    .textlinks {
-        text-align: left;
-        padding: 5px;
-        margin: 20px 40px 20px 40px;
-    }
-
     .applink2 {
         margin: auto;
     }
@@ -648,13 +650,18 @@ h2 {
     }
 
     .platzhalterbild2 {
+        margin: auto;
+    }
+
+    .platzhalterbild2 img{
+        display: flex;
+        align-content: flex-end;
         margin: 0;
     }
 
     .portaloben {
         flex-direction: column-reverse;
         padding: 5px;
-        margin: 20px 40px 20px 40px;
     }
 
     .portaltextrechts {
@@ -665,7 +672,6 @@ h2 {
     .portalunten {
         flex-direction: column-reverse;
         padding: 5px;
-        margin: 20px 40px 20px 40px;
     }
 
     .portaluntenrechts {
