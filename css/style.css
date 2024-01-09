@@ -211,7 +211,7 @@ header {
     list-style: none;
 }
 
-.menu li {
+.menu a {
     padding: 0px 20px 0px 0px;
 }
 
