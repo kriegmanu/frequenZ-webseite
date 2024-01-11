@@ -4,7 +4,10 @@ Hier dokumentieren wir unser IM Projekt "frequenZ".
 
 ## Vorgehen und Methodik
 ### Allgemeines
+
+
 ### HTML
+Im HTML haben wir oft mit divs gearbeitet und diesen dann eine Class für das Styling gegeben. Für uns hat das sehr gut funktioniert, da unsere Struktur so eine Regelmässigkeit drinn hat und wir alle Inhalte auf die gleiche Art ansprechen konnten.
 
 ### CSS
 Wir haben für allgemeine Stylings (Schrifthierarchien, Header, Footer, etc.) das Stylesheet style.css erstellt und dieses auf allen HTML-Seiten verlinkt. Jede zusätzliche Seite (bsp. Angebot, Kontakt, etc.) hat zusätzlich ein eigenes CSS-Stylesheet. Das haben wir vorallem so gemacht, damit mehrere Personen gleichzeitig daran arbeiten konnten. So konnten wir merge-Konflikte, bis uf ein einziges Mal, vermeiden.
