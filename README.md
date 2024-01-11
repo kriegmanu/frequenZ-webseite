@@ -3,7 +3,12 @@
 Hier dokumentieren wir unser IM Projekt "frequenZ".
 
 ## Vorgehen und Methodik
+### Allgemeines
+### HTML
 
+### CSS
+Wir haben für allgemeine Stylings (Schrifthierarchien, Header, Footer, etc.) das Stylesheet style.css erstellt und dieses auf allen HTML-Seiten verlinkt. Jede zusätzliche Seite (bsp. Angebot, Kontakt, etc.) hat zusätzlich ein eigenes CSS-Stylesheet. Das haben wir vorallem so gemacht, damit mehrere Personen gleichzeitig daran arbeiten konnten. So konnten wir merge-Konflikte, bis uf ein einziges Mal, vermeiden.
+Um die Seite responsive zu gestalten, haben wir 2 mediaquerys gemacht. Einmal für eine maximale Breite von 1000px und einmal 600px beispielsweise für das Smartphone.
 
 
 ## Quelle und Arbeitsmittel
