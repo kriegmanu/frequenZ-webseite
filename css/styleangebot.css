@@ -113,7 +113,7 @@ h1{
     text-align: center;
     padding-top: 13px;
     font-family: Ubuntu;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     cursor: pointer;
@@ -121,16 +121,7 @@ h1{
 }
 
 .applink:hover {
-    width: 257px;
-    height: 40px; 
     background-color: var(--violett);
-    border-radius: 16px;
-    text-align: center;
-    padding-top: 13px;
-    font-family: Ubuntu;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
 }
 
 .applink2 {
@@ -141,23 +132,14 @@ h1{
     text-align: center;
     padding-top: 13px;
     font-family: Ubuntu;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     cursor: pointer;
 }
 
 .applink2:hover {
-    width: 257px;
-    height: 40px; 
     background-color: var(--orange);
-    border-radius: 16px;
-    text-align: center;
-    padding-top: 13px;
-    font-family: Ubuntu;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
 }
 
 .titelrechts {
