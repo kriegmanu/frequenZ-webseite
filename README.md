@@ -1,14 +1,17 @@
 # frequenZ-webseite
+## Vorstellung
+frequenZ ist ein Start-up, dass sich im Bereich des Radios befindet. Wir machen bei frequenZ Radio für die Generation Z und sprechen unsere Zielgruppe mit attraktiven Features, einer modernen Webseite und einer dazugehörigen App an. Viele der Features sind nur in der Appversion verfügbar und erfüllen deshalb auch auf der Homepage nicht die versprochene Funktion. Die Homepage dient hauptsächlich als Informationsquelle und nicht wirklich um aktiv genutzt zu werden. Dafür gibt es unsere App im AppStore und GooglePlaystore.
+
 ## Vorgehen und Methodik
 ### Allgemeines
 Da wir als Vierergruppe nicht alle an einem Laptop sitzen und coden konnten, haben wir die Seiten untereinander aufgeteilt und oft in Zweiergruppen gearbeitet. Nur zum Schluss als es um das Zusammenfügen ging, haben wir nicht mehr gleichzeitig gearbeitet, sondern uns abgewechselt, gegenseitig getestet und allfällige Änderungen vorgenommen.
 
 ### HTML
-Im HTML haben wir oft mit divs gearbeitet und diesen dann eine Class für das Styling gegeben. Für uns hat das sehr gut funktioniert, da unsere Struktur so eine Regelmässigkeit drinn hat und wir alle Inhalte auf die gleiche Art ansprechen konnten.
+Im HTML haben wir oft mit "divs" gearbeitet und diesen dann eine Class für das Styling gegeben. Für uns hat das sehr gut funktioniert, da unsere Struktur so eine Regelmässigkeit drinn hat und wir alle Inhalte auf die gleiche Art ansprechen konnten.
 
 ### CSS
-Wir haben für allgemeine Stylings (Schrifthierarchien, Header, Footer, etc.) das Stylesheet style.css erstellt und dieses auf allen HTML-Seiten verlinkt. Jede zusätzliche Seite (bsp. Angebot, Kontakt, etc.) hat zusätzlich ein eigenes CSS-Stylesheet. Das haben wir vorallem so gemacht, damit mehrere Personen gleichzeitig daran arbeiten konnten. So konnten wir merge-Konflikte, bis uf ein einziges Mal, vermeiden.
-Um die Seite responsive zu gestalten, haben wir 2 mediaquerys gemacht. Einmal für eine maximale Breite von 1000px und einmal 600px beispielsweise für das Smartphone.
+Wir haben für allgemeine Stylings (Schrifthierarchien, Header, Footer, etc.) das Stylesheet "style.css" erstellt und dieses auf allen html-Seiten verlinkt. Jede zusätzliche Seite (bsp. Angebot, Kontakt, etc.) hat zusätzlich ein eigenes CSS-Stylesheet. Das haben wir vorallem so gemacht, damit mehrere Personen gleichzeitig daran arbeiten konnten. So konnten wir "merge-Konflikte", bis uf ein einziges Mal, vermeiden.
+Um die Seite responsive zu gestalten, haben wir 2 "mediaquerys" gemacht. Einmal für eine maximale Breite von 1000px und einmal 600px beispielsweise für das Smartphone.
 
 
 ## Quelle und Arbeitsmittel
