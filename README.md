@@ -1,7 +1,4 @@
 # frequenZ-webseite
-
-Hier dokumentieren wir unser IM Projekt "frequenZ".
-
 ## Vorgehen und Methodik
 ### Allgemeines
 Da wir als Vierergruppe nicht alle an einem Laptop sitzen und coden konnten, haben wir die Seiten untereinander aufgeteilt und oft in Zweiergruppen gearbeitet. Nur zum Schluss als es um das Zusammenfügen ging, haben wir nicht mehr gleichzeitig gearbeitet, sondern uns abgewechselt, gegenseitig getestet und allfällige Änderungen vorgenommen.
@@ -17,6 +14,6 @@ Um die Seite responsive zu gestalten, haben wir 2 mediaquerys gemacht. Einmal f�
 ## Quelle und Arbeitsmittel
 Codefragen haben wir an unsere **Dozierenden** oder direkt an **Chat-GPT** gestellt. Zudem haben wir **GitHubCopilot** installiert und aktiv genutzt. Die **Code-Along-Slides** haben uns auch stark geholfen eine Stuktur aufzubauen und Stylings zu verstehen. Da wir viel mit Flexboxen gearbeitet haben, war uns das **Flexbox Cheat Sheet** eine grosse Hilfe. Ansonsten haben wir einfach viel ausprobiert, getestet, uns gegenseitig geholfen oder Mitstudierende um ihren Input gebeten. Zum Schluss haben wir unseren html-Code, sowie auch die CSS-Stylesheets auf zwei **Validator-Webseiten** getestet. Der CSS-Code war auf Anhieb fehlerfrei, im html-code haben wir noch einzelne Fehler gefunden, die wir überarbeitet haben.
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://validator.w3.org/
-https://jigsaw.w3.org/css-validator/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br />
+https://validator.w3.org/ <br />
+https://jigsaw.w3.org/css-validator/ <br />
