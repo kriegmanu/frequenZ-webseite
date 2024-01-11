@@ -4,7 +4,7 @@ Hier dokumentieren wir unser IM Projekt "frequenZ".
 
 ## Vorgehen und Methodik
 ### Allgemeines
-Da wir als Vierergruppe nicht alle an einem Laptop sitzen und coden konnten, haben wir die Seiten untereinander aufgeteilt und oft in zweiergruppen gearbeitet. Nur zum Schluss als es um das Zusammenfügen ging, haben wir nicht mehr gleichzeitig gearbeitet, sondern uns abgewechselt, gegenseitig getestet und allfällige Änderungen unternommen.
+Da wir als Vierergruppe nicht alle an einem Laptop sitzen und coden konnten, haben wir die Seiten untereinander aufgeteilt und oft in Zweiergruppen gearbeitet. Nur zum Schluss als es um das Zusammenfügen ging, haben wir nicht mehr gleichzeitig gearbeitet, sondern uns abgewechselt, gegenseitig getestet und allfällige Änderungen vorgenommen.
 
 ### HTML
 Im HTML haben wir oft mit divs gearbeitet und diesen dann eine Class für das Styling gegeben. Für uns hat das sehr gut funktioniert, da unsere Struktur so eine Regelmässigkeit drinn hat und wir alle Inhalte auf die gleiche Art ansprechen konnten.
